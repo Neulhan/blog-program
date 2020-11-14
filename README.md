@@ -13,7 +13,7 @@
 ### Endpoint : `http://127.0.0.1:8080`
 
 
-### `/posts/`
+### Get Post List `/posts/`
 ![](https://img.shields.io/static/v1?label=method&message=GET&color=3688ff)
 #### return  
 ```json
@@ -39,7 +39,7 @@
 }
 ```  
 
-### `/post/create`
+### Create Post `/post/create`
 ![](https://img.shields.io/static/v1?label=method&message=POST&color=3688ff)
 `application/json` `charset=utf-8`
 <table>
@@ -82,7 +82,7 @@
 ```  
 
 
-### `/post/:id`
+### Get One Post `/post/:id`
 ![](https://img.shields.io/static/v1?label=method&message=GET&color=3688ff)
 
 
@@ -99,7 +99,7 @@
   }
 }
 ```  
-### `/post/:id`
+### Delete One Post `/post/:id`
 ![](https://img.shields.io/static/v1?label=method&message=DELETE&color=3688ff)
 
 
